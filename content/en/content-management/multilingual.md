@@ -37,7 +37,7 @@ This is an example of a site configuration for a multilingual project. Any key n
 defaultContentLanguage = 'de'
 defaultContentLanguageInSubdir = true
 
-[languages.de]
+[Languages.de]
 contentDir = 'content/de'
 disabled = false
 languageCode = 'de-DE'
@@ -46,10 +46,10 @@ languageName = 'Deutsch'
 title = 'Projekt Dokumentation'
 weight = 1
 
-[languages.de.params]
+[Languages.de.params]
 subtitle = 'Referenz, Tutorials und Erklärungen'
 
-[languages.en]
+[Languages.en]
 contentDir = 'content/en'
 disabled = false
 languageCode = 'en-US'
@@ -58,7 +58,7 @@ languageName = 'English'
 title = 'Project Documentation'
 weight = 2
 
-[languages.en.params]
+[Languages.en.params]
 subtitle = 'Reference, Tutorials, and Explanations'
 {{< /code-toggle >}}
 
